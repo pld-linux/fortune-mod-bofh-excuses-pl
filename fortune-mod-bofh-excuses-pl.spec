@@ -9,8 +9,8 @@ Requires:	fortune-mod
 Source0:	%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
-# requires strfile form fortune-mod package (why it's placed in /usr/sbin/ directory?)
-BuildRequires:	fortune-mod
+# requires strfile form fortune-mod package
+BuildRequires:	fortune-mod >= 1.0-13
 
 %description
 Fortune-mod contains the ever-popular fortune program. Want a little
@@ -35,7 +35,7 @@ przez Andrzeja 'Greybow' Korcale (http://greybrow.iq.pl/POPR/)
 %prep
 %setup -q -n bofh-pl
 %build
-%{_sbindir}/strfile bofh-excuses-pl bofh-excuses-pl.dat
+strfile bofh-excuses-pl bofh-excuses-pl.dat
 
 %install
 rm -rf $RPM_BUILD_ROOT
