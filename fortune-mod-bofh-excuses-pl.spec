@@ -7,6 +7,7 @@ License:	BSD
 Group:		Applications/Games
 Requires:	fortune-mod
 Source0:	%{name}-%{version}.tgz
+# Source0-md5:	effccf2cfaa7846f5c1e4bedae892a00
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildRequires:	fortune-mod >= 1.0-13
 BuildArch:	noarch
