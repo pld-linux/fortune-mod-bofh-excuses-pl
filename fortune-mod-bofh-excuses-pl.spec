@@ -8,9 +8,8 @@ Group:		Applications/Games
 Requires:	fortune-mod
 Source0:	%{name}-%{version}.tgz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-BuildArch:	noarch
-# requires strfile form fortune-mod package
 BuildRequires:	fortune-mod >= 1.0-13
+BuildArch:	noarch
 
 %description
 Fortune-mod contains the ever-popular fortune program. Want a little
