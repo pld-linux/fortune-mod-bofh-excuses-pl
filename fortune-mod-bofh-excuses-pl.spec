@@ -1,5 +1,5 @@
 Summary:	Collection of Bofh Excuses Fortunes in polish language
-Summary(pl):	Zestaw fortunek z wymówkami administratorów (BOFH-ów) po polsku
+Summary(pl.UTF-8):   Zestaw fortunek z wymÃ³wkami administratorÃ³w (BOFH-Ã³w) po polsku
 Name:		fortune-mod-bofh-excuses-pl
 Version:	1.0
 Release:	2
@@ -22,14 +22,14 @@ they log in.
 This package contains famous BOFH excuses in polish language,
 translated by Andrzej 'Greybrow' Korcala (http://greybrow.iq.pl/POPR/)
 
-%description -l pl
-Fortune-mod zawiera wci±¿ popularny program fortune ("cytat dnia",
-"przepowiednia"). Masz ochotê na odrobinê m±dro¶ci przekazanej Ci
+%description -l pl.UTF-8
+Fortune-mod zawiera wciÄ…Å¼ popularny program fortune ("cytat dnia",
+"przepowiednia"). Masz ochotÄ™ na odrobinÄ™ mÄ…droÅ›ci przekazanej Ci
 podczas logowania? Program fortune jest dla Ciebie. Administratorzy z
-poczuciem humoru mog± dodaæ fortune do plików .login u¿ytkowników tak,
-by ka¿dy otrzyma³ swoj± dawkê m±dro¶ci przy logowaniu.
+poczuciem humoru mogÄ… dodaÄ‡ fortune do plikÃ³w .login uÅ¼ytkownikÃ³w tak,
+by kaÅ¼dy otrzymaÅ‚ swojÄ… dawkÄ™ mÄ…droÅ›ci przy logowaniu.
 
-Ten pakiet zawiera s³ynne wymówki BOFH-ów po polsku przet³umaczone
+Ten pakiet zawiera sÅ‚ynne wymÃ³wki BOFH-Ã³w po polsku przetÅ‚umaczone
 przez Andrzeja 'Greybow' Korcale (http://greybrow.iq.pl/POPR/)
 
 %prep
