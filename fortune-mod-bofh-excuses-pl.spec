@@ -1,5 +1,5 @@
 Summary:	Collection of Bofh Excuses Fortunes in polish language
-Summary(pl.UTF-8):   Zestaw fortunek z wymówkami administratorów (BOFH-ów) po polsku
+Summary(pl.UTF-8):	Zestaw fortunek z wymówkami administratorów (BOFH-ów) po polsku
 Name:		fortune-mod-bofh-excuses-pl
 Version:	1.0
 Release:	2
